@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.title{
+    font-size: 35px;
+    margin: 20px 0 20px 0;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0px 0px 40px 0px;
+}
+.title, h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border: 0px 0px 50px 0px;
+}
+
+body {
+    height: 97vh;
+    background-image: url('images/backGround.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    backdrop-filter: blur(3px);
+  }
+
+  
+
+  .container{
+      display: flex;
+      width: 79vw;
+      margin: 0 9vw 5vh 9vw;
+      justify-content: space-between;
+  }
+
+  .element {
+      border: 5px solid black;
+      height: 50vh;
+      width: 30%;
+      background-size: 100% 100%;
+      background-color: brown;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+  }
+
+  .menu {  
+      display: flex;
+      margin: 0 42vw 0 42vw;
+      height: 35px;
+      justify-content: space-between;
+  }
+
+  .menu input, .draw {
+    border: 2px solid black;
+    background-color: red;
+    text-align: center;
+    
+  }
+  .draw{
+    border-radius: 15%;
+    width: 60px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .stats{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 15%;
+      border: 2px solid black;
+      right: 1vw;
+      bottom: 1vh;
+      text-align: center;
+      line-height: 50px;
+      text-transform: uppercase;
+      cursor: pointer;
+  }
+
+  .popUp{
+      display: flex;
+      position: absolute;
+      left: 2vw;
+      right: 2vw;
+      top: 2vh;
+      bottom: 2vh;
+      border: 2px solid black;
+      display: none;
+      background-color: brown;
+  }
+  .popUp div{
+      text-transform: uppercase;
+      height: 19%;
+      margin-left: 2vw;
+      font-size: 35px;
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+  .popUpStats{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0 15vh 0;
+  }
+
+  .closeButton{
+      border: solid 2px black;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      top: 20px;
+      right: 20px;
+      text-align: center;
+      background-color: red;
+      cursor: pointer;
+      border-radius: 15%;
+  }
+  .wallet{
+      margin: 30px auto 0 auto;
+      width: 100px;
+      background-color: green;
+      text-align: center;
+      border: solid 2px black;
+
+  }
