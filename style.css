@@ -7,9 +7,21 @@
     margin: 20px 0 20px 0;
 }
 
+@media(max-width:500px){
+    .title{
+        font-size: 25px;
+    }
+}
+
 h2{
     font-size: 30px;
     margin: 0px 0px 40px 0px;
+}
+
+@media(max-width:500px){
+    .h2{
+        font-size: 20px;
+    }
 }
 .title, h2 {
     text-align: center;
@@ -30,21 +42,28 @@ body {
 
   .container{
       display: flex;
-      width: 79vw;
+      width: 80vw;
       margin: 0 9vw 5vh 9vw;
       justify-content: space-between;
   }
 
   .element {
-      border: 5px solid black;
-      height: 50vh;
-      width: 30%;
+      border: 3px solid black;
+      border-radius: 5%;
+      margin-left: 20px;
       background-size: 100% 100%;
       background-color: brown;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-
+      overflow: hidden;
+    height: 29.1vw;
+    width: 20vw;
   }
+
+  @media(max-width:500px){
+    .element{
+        border: 1px solid black;
+    }
+}
+
 
   .menu {  
       display: flex;
@@ -52,6 +71,12 @@ body {
       height: 35px;
       justify-content: center;
   }
+
+  @media(max-width:500px){
+    .menu{
+        height: 25px;
+    }
+}
 
   .menu input, .draw {
     border: 2px solid black;
@@ -65,6 +90,12 @@ body {
     cursor: pointer;
     margin-left: 10px;
   }
+
+  @media(max-width:500px){
+    .menu input{
+        width: 60px;
+    }
+}
   .stats{
       position: absolute;
       width: 50px;
