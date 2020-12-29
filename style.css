@@ -48,9 +48,9 @@ body {
 
   .menu {  
       display: flex;
-      margin: 0 42vw 0 42vw;
+      margin: 0 auto 0 auto;
       height: 35px;
-      justify-content: space-between;
+      justify-content: center;
   }
 
   .menu input, .draw {
